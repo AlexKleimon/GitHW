@@ -6,6 +6,6 @@ internal class Program
     {
         int x = int.Parse(Console.ReadLine()?? "1");
         int y = int.Parse(Console.ReadLine()?? "1");
-        Console.WriteLine($"Div nambers x: {x} and y: {y} = {x/y}");
+        Console.WriteLine($"Sum nambers x: {x} and y: {y} = {x+y}");
     }
 }
