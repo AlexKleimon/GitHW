@@ -4,8 +4,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        int p = int.Parse(Console.ReadLine()?? "0");
+        int x = int.Parse(Console.ReadLine()?? "0");
         int y = int.Parse(Console.ReadLine()?? "0");
-        Console.WriteLine($"Sum nambers x: {p} and y: {y} = {p+y}");
+        Console.WriteLine($"Multi nambers x: {x} and y: {y} = {x*y}");
     }
 }
